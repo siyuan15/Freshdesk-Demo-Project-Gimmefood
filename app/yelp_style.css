@@ -1,0 +1,121 @@
+i {
+  left: 32px;
+  top: 174px;
+  position: absolute;
+}
+
+#loader {
+  margin-top: 6px;
+}
+
+#text {
+  font-size: 17;
+}
+
+#yelplogo {
+  height: 10%;
+  width: 21%;
+  margin-top: 6px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 6px;
+}
+
+#search-btn {
+  height: 40px;
+  color: white;
+  background-color: #d32323;
+  font-size: 12;
+  font-weight: bold;
+  outline: none;
+  margin-left: 10px;
+}
+
+#user-input {
+  width: 235px;
+}
+
+#user-location {
+  width: 400px;
+}
+
+#user-location {
+  padding: 1px 12px 1px 28px;
+}
+
+.container{
+  margin-top: 6px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 6px;
+}
+
+.search {
+  height: 40px;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid #ccc;
+  padding: 1px 12px 1px 12px;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+.text {
+  margin-top: 6px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 6px;
+}
+
+/* Code of loader are borrowed from a publically available source:
+* loader websie:
+*/
+
+/* begin of code for loader */
+.loader-3 .dot {
+  width: 10px;
+  height: 10px;
+  background: #d32323;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 5px);
+  display: none;
+}
+.loader-3 .dot1 {
+  left: 45%;
+  -webkit-animation: dot-jump 0.5s cubic-bezier(0.77, 0.47, 0.64, 0.28) alternate infinite;
+  animation: dot-jump 0.5s cubic-bezier(0.77, 0.47, 0.64, 0.28) alternate infinite;
+}
+.loader-3 .dot2 {
+  left: 50%;
+  -webkit-animation: dot-jump 0.5s 0.2s cubic-bezier(0.77, 0.47, 0.64, 0.28) alternate infinite;
+  animation: dot-jump 0.5s 0.2s cubic-bezier(0.77, 0.47, 0.64, 0.28) alternate infinite;
+}
+.loader-3 .dot3 {
+  left: 55%;
+  -webkit-animation: dot-jump 0.5s 0.4s cubic-bezier(0.77, 0.47, 0.64, 0.28) alternate infinite;
+  animation: dot-jump 0.5s 0.4s cubic-bezier(0.77, 0.47, 0.64, 0.28) alternate infinite;
+}
+
+@-webkit-keyframes dot-jump {
+0% {
+-webkit-transform: translateY(0);
+transform: translateY(0);
+}
+100% {
+-webkit-transform: translateY(-15px);
+transform: translateY(-15px);
+}
+}
+@keyframes dot-jump {
+0% {
+-webkit-transform: translateY(0);
+transform: translateY(0);
+}
+100% {
+-webkit-transform: translateY(-15px);
+transform: translateY(-15px);
+}
+}
+
+/* end of code for loader */

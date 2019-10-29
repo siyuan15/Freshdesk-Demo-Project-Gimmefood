@@ -1,0 +1,16 @@
+{
+  "api_key": {
+    "display_name": "Freshdesk API key",
+    "description": "Please enter your Freshdesk API key. You can find it in the profile section page.",
+    "type": "text",
+    "secure": true,
+    "required": true
+  },
+  "yelp_api_key": {
+    "display_name": "Yelp API key",
+    "description": "Please enter your Yelp Fusion API key. You can get it from https://www.yelp.com/fusion.",
+    "type": "text",
+    "secure": true,
+    "required": true
+  }
+}
